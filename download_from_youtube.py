@@ -6,4 +6,4 @@ from pydrive2.drive import GoogleDrive
 #variables excel
 file_path = 'enlaces_videos/enlaces.xlsx'
 sheet_name = 'Hoja1'
-column_name = 
+column_name = 'Videos'
