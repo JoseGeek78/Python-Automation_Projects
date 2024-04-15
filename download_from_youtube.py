@@ -14,5 +14,5 @@ id_folder = ''
 
 # Iniciar sesión en Drive
 def login():
-    GoogleAuth().
+    GoogleAuth().DEFAULT_SETTINGS['cliente_config_file']
     
