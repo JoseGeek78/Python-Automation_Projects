@@ -9,3 +9,4 @@ sheet_name = 'Hoja1'
 column_name = 'Videos'
 
 #credenciales google drive
+directorio_credenciales = ''
