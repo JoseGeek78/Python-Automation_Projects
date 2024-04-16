@@ -18,3 +18,4 @@ def login():
     gauth = GoogleAuth()
     gauth.LoadCredentialsFile(directorio_credenciales)
     
+    if gauth.credentials is None
