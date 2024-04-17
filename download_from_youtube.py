@@ -26,3 +26,4 @@ def login():
         gauth.Authorize()
         
     gauth.SaveCredentialsFile(directorio_credenciales)
+    credenciales = GoogleDrive(gauth)
