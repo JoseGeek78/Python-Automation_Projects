@@ -31,7 +31,8 @@ def login():
 
 
 #Subir un archivo a Drive
-def subir_archivo(ruta_archivo, id_folder):
+def subir_archivo(ruta_archivo,id_folder):
     credenciales = login()
-    archivo = credenciales.CreateFile()
+    archivo = credenciales.CreateFile({'parents': [{"kind": "drive#fileLink",\
+                                                    "id": id_folder}]})
     
