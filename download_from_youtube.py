@@ -35,4 +35,4 @@ def subir_archivo(ruta_archivo,id_folder):
     credenciales = login()
     archivo = credenciales.CreateFile({'parents': [{"kind": "drive#fileLink",\
                                                     "id": id_folder}]})
-    
+    archivo['title'] = ruta_archivo.split("/")[-1]
