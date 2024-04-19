@@ -44,4 +44,4 @@ def subir_archivo(ruta_archivo,id_folder):
         #Leer los links del excel
         df = pd.read_excel(file_path, sheet_name=sheet_name)
         column_data = df[column_name]
-        
+        videos = 
