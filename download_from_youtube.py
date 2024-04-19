@@ -42,4 +42,4 @@ def subir_archivo(ruta_archivo,id_folder):
     
     def main():
         #Leer los links del excel
-        df
+        df = pd.read_excel(file_path, )
