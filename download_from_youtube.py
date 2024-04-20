@@ -52,3 +52,6 @@ def subir_archivo(ruta_archivo,id_folder):
             yt = YouTube(link_video)
             video = yt.streams.get_highest_resolution()
             video.download('./YT')
+            
+            #Subir
+            subir_archivo(f'YT/{video.title}.mp4',id_folder)
