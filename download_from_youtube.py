@@ -47,3 +47,4 @@ def subir_archivo(ruta_archivo,id_folder):
         videos = column_data.values
         
         #Descargar videos de youtube y subirlo a drive
+        for link videso in videos:
