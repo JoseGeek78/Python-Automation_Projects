@@ -55,3 +55,7 @@ def subir_archivo(ruta_archivo,id_folder):
             
             #Subir
             subir_archivo(f'YT/{video.title}.mp4',id_folder)
+            
+
+if __name__ == "__main__":
+    main()
